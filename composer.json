@@ -1,0 +1,16 @@
+{
+  "name": "hulupiao/baccarat",
+  "description": "It's a php framework",
+  "minimum-stability": "stable",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "hulupiao",
+      "email": "hulupiao@sina.cn"
+    }
+  ],
+
+  "require": {
+    "smarty/smarty": "~3.1"
+  }
+}

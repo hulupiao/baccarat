@@ -1,6 +1,8 @@
 {
   "name": "hulupiao/baccarat",
+  "type": "hulupiao",
   "description": "It's a php framework",
+  "keywords": ["hulupiao", "web", "framework"],
   "minimum-stability": "stable",
   "license": "GPL",
   "authors": [
@@ -9,8 +11,18 @@
       "email": "hulupiao@sina.cn"
     }
   ],
-
+  "support": {
+    "issues": "https://github.com/hulupiao/baccarat/issues",
+    "wiki": "https://github.com/hulupiao/baccarat/wiki",
+    "source": "https://github.com/hulupiao/baccarat"
+  },
   "require": {
     "smarty/smarty": "~3.1"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "hulupiao\\baccarat\\": "/"
+    }
   }
 }

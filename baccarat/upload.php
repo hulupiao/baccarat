@@ -6,7 +6,9 @@
  * @version : $Id$
  */
 
-class baccarat_upload
+namespace hulupiao\baccarat;
+
+class upload
 {
     protected $file_type = array('.jpg', '.png');
     protected $max_size = 2048;

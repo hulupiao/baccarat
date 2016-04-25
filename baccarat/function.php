@@ -5,7 +5,9 @@
  * @desc: baccarat框架路由控制类
  * @version : $Id$
  */
-final class baccarat_function
+namespace hulupiao\baccarat;
+
+final class base
 {
     /*
      echo Pinyin('中文字','gb2312'); //第二个参数“1”可随意设置即为utf8编码

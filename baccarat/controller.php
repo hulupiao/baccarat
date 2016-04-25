@@ -5,7 +5,9 @@
  * @desc: baccarat框架控制层基类
  * @version : $Id$
  */
-class baccarat_controller
+namespace hulupiao\baccarat;
+
+class controller
 {    
     private static $baccarat_viewer;    
     public function __construct()

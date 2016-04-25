@@ -5,8 +5,10 @@
  * @desc: baccarat框架模板类，基于smarty2.6
  * @version : $Id$
  */
-include_once LIB_DIR.'/Smarty/Smarty.class.php';
-class baccarat_viewer extends Smarty
+namespace hulupiao\baccarat;
+
+
+class viewer extends Smarty
 {	
     public $smarty_obj;
     public function __construct()

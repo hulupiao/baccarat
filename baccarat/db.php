@@ -23,7 +23,11 @@
         )
 );
  */
-class baccarat_db
+namespace hulupiao\baccarat;
+
+use PDO;
+
+class db
 {
     /**
      * 是否开启DEBUG

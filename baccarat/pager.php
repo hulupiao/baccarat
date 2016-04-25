@@ -5,7 +5,9 @@
  * @desc: baccarat框架分页类
  * @version : $Id$
  */
-class baccarat_pager
+namespace hulupiao\baccarat;
+
+class pager
 {
     public $curPage = 1;
     //页数

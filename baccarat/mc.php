@@ -5,7 +5,9 @@
  * @desc: baccarat框架内存缓存操作类
  * @version : $Id$
  */
-final class baccarat_mc
+namespace hulupiao\baccarat;
+
+final class mc
 {
 	
     public function __construct()
